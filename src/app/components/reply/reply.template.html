@@ -1,0 +1,13 @@
+<div class='panel panel-default'>
+  <div class="panel-heading">回复</div>
+
+
+  <ul class="replies">
+    <li *ngFor="let reply of replies">
+      <span class="badge">{{reply.author_name}}</span>
+      <span class="badge">{{reply.content}}</span>
+    </li>
+  </ul>
+
+
+</div>

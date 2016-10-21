@@ -1,0 +1,14 @@
+<div class="" *ngIf="!blogs && !loadError">
+  loading
+</div>
+
+<div class="" *ngIf="loadError">
+  数据加载失败, 可能是平台 API访问超过限额, 请稍候再试
+</div>
+
+<ul class="yoyos">
+  <li *ngFor="let blog of blogs" (click)="onSelect(blog)">
+    <span class="badge">{{blog.title}}</span>
+    <span class="badge">{{blog.date}}</span>
+  </li>
+</ul>

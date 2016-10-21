@@ -1,0 +1,11 @@
+<div class="" *ngIf="blog">
+  {{blog.title}}
+  <br>
+
+
+  <div [innerHTML]="htmlContent"></div>
+
+
+  <reply-comp [replies]="replies"></reply-comp>
+
+</div>
