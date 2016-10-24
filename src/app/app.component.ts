@@ -23,16 +23,6 @@ import 'rxjs/add/operator/toPromise';
     '../../node_modules/@angular/material/core/theming/prebuilt/deeppurple-amber.css'
   ],
   templateUrl: './app.template.html'
-  // template: `
-  //   <div class="uk-container uk-container-center">
-  //     <my-header></my-header>
-  //     <main>
-  //       <router-outlet></router-outlet>
-  //     </main>
-  //     <footer>
-  //     </footer>
-  //   </div>
-  // `
 })
 export class App {
   angularclassLogo = 'assets/img/angularclass-avatar.png';

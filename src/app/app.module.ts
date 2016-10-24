@@ -17,8 +17,8 @@ import { APP_RESOLVER_PROVIDERS } from './app.resolver';
 import { AppState, InteralStateType } from './app.service';
 
 import { Home } from './pages/home';
+import { BlogList } from './pages/blogList';
 import { NoContent } from './pages/no-content';
-import { MyHeader } from './components/header';
 
 
 
@@ -42,8 +42,8 @@ type StoreType = {
   declarations: [
     App,
     Home,
-    NoContent,
-    MyHeader
+    BlogList,
+    NoContent
   ],
   imports: [ // import Angular's modules
     BrowserModule,

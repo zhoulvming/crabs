@@ -7,6 +7,9 @@ export class AppUtil {
 
   }
 
+  /**
+   * 获取当前path
+   */
   getCurrentPath(route) {
     let currPath = '';
     let urlArr = route.url._value;

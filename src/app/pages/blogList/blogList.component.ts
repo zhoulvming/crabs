@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { ActivatedRoute, Router, Params }   from '@angular/router';
 
-import { AppState } from '../../components/app/app.service';
+import { AppState } from '../../app.service';
 
 import { BlogServ } from '../../services/blog.service';
 
@@ -10,12 +10,12 @@ import { Blog } from '../../models/blog';
 
 import { BlogType } from '../../models/blogType';
 
-import { AppUtil } from '../../shared/app.util'
+import { AppUtil } from '../../share/app.util';
 
 
 @Component({
   providers: [
-    BlogServ,AppUtil
+    BlogServ, AppUtil
   ],
   templateUrl: './blogList.template.html'
 })
